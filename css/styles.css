@@ -1,0 +1,43 @@
+.header_ul,
+.sub_page_header {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 20px;
+
+  padding: 10px 20px;
+  margin: 0;
+
+  background: rgb(146, 211, 235);
+}
+
+.main_index,.main_subpage {
+  padding: 0 20px;
+
+  background-image: url("https://i.pinimg.com/736x/80/d4/05/80d4051ca72b0c367bb1ea546dc9b907.jpg");
+  background-size: cover;
+}
+.main_subpage{
+    height: 500px;
+    background-image: url("https://img.freepik.com/free-vector/blue-green-patterned-background-vector_53876-77850.jpg?t=st=1727291014~exp=1727294614~hmac=9d026ba26b52cbed4303abeb58866a5b59b9b36194c6f98eecfceadd11176275&w=740");
+}
+
+header {
+  margin: 0;
+}
+
+footer {
+  border-top: 2px solid black;
+
+  background: rgb(206, 205, 205);
+
+  padding: 20px;
+}
+
+/*  */
+.sub_page_header {
+  justify-content: start;
+}
