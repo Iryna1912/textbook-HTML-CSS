@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .header_ul,
 .sub_page_header {
   list-style: none;
@@ -14,19 +20,24 @@
   background: rgb(146, 211, 235);
 }
 
-.main_index,.main_subpage {
+.main_index,
+.main_subpage {
   padding: 0 20px;
 
   background-image: url("https://i.pinimg.com/736x/80/d4/05/80d4051ca72b0c367bb1ea546dc9b907.jpg");
   background-size: cover;
 }
-.main_subpage{
-    height: 500px;
-    background-image: url("https://img.freepik.com/free-vector/blue-green-patterned-background-vector_53876-77850.jpg?t=st=1727291014~exp=1727294614~hmac=9d026ba26b52cbed4303abeb58866a5b59b9b36194c6f98eecfceadd11176275&w=740");
+.main_subpage {
+  height: 500px;
+  background-image: url("https://img.freepik.com/free-vector/blue-green-patterned-background-vector_53876-77850.jpg?t=st=1727291014~exp=1727294614~hmac=9d026ba26b52cbed4303abeb58866a5b59b9b36194c6f98eecfceadd11176275&w=740");
 }
 
 header {
   margin: 0;
+}
+
+main {
+  flex: 1;
 }
 
 footer {
