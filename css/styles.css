@@ -46,6 +46,10 @@ footer {
   background: rgb(206, 205, 205);
 
   padding: 20px;
+
+  position: sticky;
+
+  bottom: 0;
 }
 
 /*  */
